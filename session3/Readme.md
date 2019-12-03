@@ -1,4 +1,6 @@
-1. Validation accuracy for base network : 82.09
+1. 
+Validation accuracy for base network : 82.09
+
 
 2. 
 #Depthwise seperable convolution
