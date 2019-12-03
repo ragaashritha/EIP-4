@@ -1,6 +1,7 @@
 1. Validation accuracy for base network : 82.09
 
-2. #Depthwise seperable convolution
+2. 
+#Depthwise seperable convolution
 from keras.layers import SeparableConv2D
 from keras.layers.normalization import BatchNormalization
 model1 = Sequential()
@@ -82,7 +83,8 @@ model1.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accu
 
 
 
-3. Epoch 1/50
+3.
+Epoch 1/50
 390/390 [==============================] - 26s 66ms/step - loss: 1.7096 - acc: 0.3620 - val_loss: 1.8922 - val_acc: 0.3782
 Epoch 2/50
 390/390 [==============================] - 22s 57ms/step - loss: 1.2254 - acc: 0.5583 - val_loss: 1.6370 - val_acc: 0.4820
